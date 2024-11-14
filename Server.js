@@ -24,8 +24,7 @@ mongoclient.connect(url)
 // MySQL + Node.js 접속 코드
 var mysql = require('mysql');
 var conn = mysql.createConnection({
-    // host: "localhost",
-    host: "58.233.36.241",
+    host: "localhost",
     user: "root",
     password: "1234",
     database: "myboard"
