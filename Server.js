@@ -22,15 +22,15 @@ mongoclient.connect(url)
 });
 
 // MySQL + Node.js 접속 코드
-var mysql = require('mysql');
-var conn = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "1234",
-    database: "myboard"
-});
+// var mysql = require('mysql');
+// var conn = mysql.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     password: "1234",
+//     database: "myboard"
+// });
 
-conn.connect();
+// conn.connect();
 
 const express = require('express');
 const app = express();
